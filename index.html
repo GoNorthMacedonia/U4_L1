@@ -19,12 +19,17 @@
         </div>
 
         <div class = 'input_group' id = 'keyboard'>
-            <h4 id = 'keyboard_label'>Text that will be shifted:</h4>
-            <input id = ciphered_text type = 'text'>
+            <h4 class = 'label' id = 'keyboard_label'>The text that will be shifted:</h4>
+            <input id = 'text' type = 'text'>
         </div>
         <div class = 'input_group' id = 'key'>
-            <h4 id = 'key_label'>Caesar Cipher Key:</h4>
-            <input id = 'key_textbox' type = 'number' maxlength = '2'>
+            <h4 class = 'label' id = 'key_label'>Caesar Cipher Key:</h4>
+            <input id = 'key_textbox' type = 'number'>
+        </div>
+
+        <div id = 'ciphered_text'>
+            <h4 class = 'label' id = 'ciphered_label'>The Ciphered Text:</h4>
+            <input id = 'ciphered_text' type="text">
         </div>
 
         <script src="index.js"></script>

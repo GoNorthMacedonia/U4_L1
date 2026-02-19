@@ -38,6 +38,14 @@ div.input_group{
     justify-content: center;
 }
 
+div#ciphered_text{
+    margin-top: 10vh;
+}
+
+h4.label{
+    color: #E1AD21;
+}
+
 .bitcount-grid-double-grid_font {
   font-family: "Bitcount Grid Double", system-ui;
   font-optical-sizing: auto;
