@@ -48,6 +48,11 @@ h4.label{
 
 p.ciphered_text{
     color: #E1AD21;
+    width: 7vw;
+    height: 4vh;
+    border-style: solid;
+    border-color: #E1AD21;
+
 }
 
 .bitcount-grid-double-grid_font {
