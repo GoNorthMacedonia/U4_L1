@@ -32,14 +32,14 @@ div.crypt{
     align-items: center;
 }
 
-div#keyboard{
-    margin-left: 5vh;
-}
-
-div.input{
+div.input_group{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+input.ciphered_text{
+    height: 5vh;
 }
 
 .bitcount-grid-double-grid_font {
