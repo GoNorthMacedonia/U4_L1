@@ -44,6 +44,7 @@ div#ciphered_text{
 
 h4.label{
     color: #E1AD21;
+    text-align: center;
 }
 
 p.ciphered_text{
@@ -52,7 +53,8 @@ p.ciphered_text{
     height: 4vh;
     border-style: solid;
     border-color: #E1AD21;
-
+    text-align: center;
+    border-width: .5vh;
 }
 
 .bitcount-grid-double-grid_font {
