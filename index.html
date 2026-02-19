@@ -15,7 +15,7 @@
     <body>
         <div class = 'header'>
             <h2 id = 'title'>Caesar Cipher</h1>
-            <div id = 'cryption'><div class = 'crypt'><h5>Encode</h5></div> <div class = 'crypt'><h5>Decode</h5></div></div>
+            <div id = 'cryption'><div class = 'crypt' onclick = "encrypt()"><h5>Encode</h5></div> <div class = 'crypt'><h5>Decode</h5></div></div>
         </div>
 
         <div class = 'input_group' id = 'keyboard'>
@@ -23,7 +23,7 @@
             <input id = 'text_textbox' type = 'text'>
         </div>
         <div class = 'input_group' id = 'key'>
-            <h4 class = 'label' id = 'key_label'>Caesar Cipher Key:</h4>
+            <h4 class = 'label' id = 'key_label'>Caesar Cipher Key (0-26):</h4>
             <input id = 'key_textbox' type = 'number'>
         </div>
 
