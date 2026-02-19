@@ -38,10 +38,6 @@ div.input_group{
     justify-content: center;
 }
 
-input.ciphered_text{
-    height: 5vh;
-}
-
 .bitcount-grid-double-grid_font {
   font-family: "Bitcount Grid Double", system-ui;
   font-optical-sizing: auto;
